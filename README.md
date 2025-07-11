@@ -1,0 +1,17 @@
+ Ejercicio para calcular el capital acumulado de una inversión año a año
+
+# Solicitar al usuario los datos necesarios
+print("nversiones")
+
+cantidad_inicial = float(input("¿Cuánto dinero deseas invertir? "))
+tasa_interes = float(input("¿Cuál es el interés anual (en porcentaje)? "))
+anios_inversion = int(input("¿Por cuántos años planeas invertir? "))
+
+# se mostraran los resultados producidos de la inversión 
+print("\nResumen de tu inversión:")
+print("\anios invertidos")
+print("Año\tCapital acumulado")
+
+# Calcular y mostrar el capital acumulado por cada año
+for anio in range(1, anios_inversion + 1):
+print("\n obtenemos los resultados")
